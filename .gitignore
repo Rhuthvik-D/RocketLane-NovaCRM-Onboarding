@@ -1,0 +1,31 @@
+# Credentials & environment variables (NEVER COMMIT)
+.env
+*.env
+.env.local
+    
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Test artifacts & caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs (may contain customer PII or raw deal emails)
+logs/*.jsonl
+logs/*.log
+!logs/.gitkeep
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Agent workspace metadata
+.agents/

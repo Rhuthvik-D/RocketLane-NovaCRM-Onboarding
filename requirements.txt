@@ -1,0 +1,15 @@
+# Pydantic for strict data validation, serialization, and settings management
+pydantic>=2.7.0  # Used for declaring strongly-typed data contracts for email payloads, voice results, and audit logs
+pydantic-settings>=2.2.0  # Used for type-safe environment variable parsing from .env files
+email-validator>=2.1.0  # Validates RFC-compliant email formatting for customer contact addresses
+
+# HTTP Client and Resiliency
+httpx>=0.27.0  # Modern, asynchronous/synchronous HTTP client used to interact with Rocketlane and external APIs
+tenacity>=8.3.0  # Industrial-grade retry library used to implement exponential backoff on Rocketlane HTTP 500 errors
+
+# Date/Time Utilities
+python-dateutil>=2.9.0  # Robust parsing utility for handling varied datetime formats in emails and logs
+
+# Testing Framework
+pytest>=8.2.0  # Testing framework used to run automated unit and integration suites
+pytest-mock>=3.14.0  # Mocking plugin for pytest to simulate API failures and responses deterministically
