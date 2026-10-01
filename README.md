@@ -44,17 +44,17 @@ The **NovaCRM Multi-Agent System** automates this lifecycle end-to-end:
 
 ## 2. Core Agents & Automations
 
-- **Agent 1: Intake & Routing Agent** ([`src/agents/agent1_intake.py`](file:///D:/SEMS/temp/Rocketlane%20-%20assignment/src/agents/agent1_intake.py))  
+- **Agent 1: Intake & Routing Agent** (`src/agents/agent1_intake.py`)  
   Parses inbound Closed-Won emails with Pydantic validation and 4-level SHA-256 deduplication. If the plan tier is missing, it initiates an outbound Voice AI call to the AE. If verbal confirmation is ambiguous, it safely stages a clarification draft in Gmail without guessing. Automatically provisions the project in Rocketlane using the Enterprise (`5000000095997`) or Growth (`5000000096288`) template.
 
-- **Agent 2: Communication & Collaboration Agent** ([`src/agents/agent2_communication.py`](file:///D:/SEMS/temp/Rocketlane%20-%20assignment/src/agents/agent2_communication.py))  
+- **Agent 2: Communication & Collaboration Agent** (`src/agents/agent2_communication.py`)  
   Creates a private Slack channel with sanitized naming (`#csm-ent-*` or `#csm-grw-*`), writes the Rocketlane Client Portal URL into the channel topic, posts a tier-customized welcome briefing, and auto-invites internal stakeholders with fail-soft error handling.
 
-- **Rocketlane Native SLA Automations** ([`src/services/rocketlane_sla_automations.py`](file:///D:/SEMS/temp/Rocketlane%20-%20assignment/src/services/rocketlane_sla_automations.py))  
+- **Rocketlane Native SLA Automations** (`src/services/rocketlane_sla_automations.py`)  
   Uses Rocketlane's native rule engine for 100% deterministic milestone tracking: triggers a warning to the assigned Project Manager when a phase is 1 day overdue, and escalates to the Project Owner / CS Director when 4 days overdue.
 
-- **Agent 3: Data QA Gatekeeper Agent** ([`src/agents/agent3_data_qa.py`](file:///D:/SEMS/temp/Rocketlane%20-%20assignment/src/agents/agent3_data_qa.py))  
-  Enforces a strict mathematical stage-gate on data migration: verifies genuine Data Migration tasks, confirms explicit customer sign-off, and mandates 100% record parity ($\text{records\_migrated} == \text{records\_verified}$). Dispatches status updates (`Completed` for Migration, `In progress` for Configuration) and posts verification certificates directly to Rocketlane.
+- **Agent 3: Data QA Gatekeeper Agent** (`src/agents/agent3_data_qa.py`)  
+  Enforces a strict mathematical stage-gate on data migration: verifies genuine Data Migration tasks, confirms explicit customer sign-off, and mandates 100% record parity ($\text{recordsmigrated} == \text{recordsverified}$). Dispatches status updates (`Completed` for Migration, `In progress` for Configuration) and posts verification certificates directly to Rocketlane.
 
 ---
 
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 
 ## 4. Configuration & Environment Variables
 
-All settings are managed via Pydantic Settings in [`src/core/config.py`](file:///D:/SEMS/temp/Rocketlane%20-%20assignment/src/core/config.py) and loaded from `.env`.
+All settings are managed via Pydantic Settings in `src/core/config.py` and loaded from `.env`.
 
 To configure your environment, copy the example template:
 ```powershell
@@ -105,7 +105,7 @@ Copy-Item .env.example .env
 | `ROCKETLANE_API_KEY` | *(Secret)* | API key for the Rocketlane REST API v1.0. |
 | `ROCKETLANE_BASE_URL` | `https://api.rocketlane.com/api/1.0` | Base URL for Rocketlane endpoints. |
 | `ROCKETLANE_MOCK_MODE` | `True` | Set `False` to run live calls against the Rocketlane cloud. |
-| `ROCKETLANE_OWNER_EMAIL` | `rhuthvik8@gmail.com` | Email of the assigned project owner in Rocketlane. |
+| `ROCKETLANE_OWNER_EMAIL` | `example@gmail.com` | Email of the assigned project owner in Rocketlane. |
 | `ROCKETLANE_ENTERPRISE_TEMPLATE_ID` | `5000000095997` | Rocketlane 30-day template ID for Enterprise tier. |
 | `ROCKETLANE_GROWTH_TEMPLATE_ID` | `5000000096288` | Rocketlane 14-day template ID for Growth tier. |
 | `VOICE_AI_API_KEY` | *(Secret)* | Telephony API token (Vapi, Bland.ai, or Retell). |
@@ -113,7 +113,7 @@ Copy-Item .env.example .env
 | `VOICE_AI_SIMULATED_TIER` | `ENTERPRISE` | Default tier returned during unattended voice simulation. |
 | `SLACK_BOT_TOKEN` | `xoxb-...` | Slack Bot OAuth User Token with `channels:manage` scope. |
 | `SLACK_MOCK_MODE` | `True` | Set `False` to create real private Slack channels. |
-| `GMAIL_USER` | `rhuthvik8@gmail.com` | CS team inbox email monitored for deal notifications. |
+| `GMAIL_USER` | `example@gmail.com` | CS team inbox email monitored for deal notifications. |
 | `GMAIL_APP_PASSWORD` | *(Secret)* | 16-character Google App Password for IMAP access. |
 | `GMAIL_POLL_INTERVAL` | `15` | Polling cadence in seconds for the background daemon. |
 | `GMAIL_SUBJECT_FILTER` | `New Deal` | Subject keyword filter used to detect Closed-Won deals. |
@@ -126,7 +126,7 @@ Copy-Item .env.example .env
 
 ## 5. How to Run (Operational CLI Runners & Demos)
 
-Execution scripts are located in [`scripts/`](file:///D:/SEMS/temp/Rocketlane%20-%20assignment/scripts/):
+Execution scripts are located in `scripts/`:
 
 ### Runner 1: Continuous Inbound Gmail Poller Daemon
 Monitors the Customer Success inbox for inbound AE deal notifications. Supports simulated in-memory deal injection as well as live IMAP polling.
@@ -197,29 +197,6 @@ pytest
 To run with verbose output:
 ```powershell
 pytest -v
-```
-
-```text
-============================= test session starts =============================
-platform win32 -- Python 3.12.3, pytest-8.4.2, pluggy-1.6.0
-collected 84 items
-
-tests\test_agent1.py ........                                            [  9%]
-tests\test_agent2.py .......                                             [ 17%]
-tests\test_agent3.py ...........                                         [ 30%]
-tests\test_assignment_part4.py ....                                      [ 35%]
-tests\test_edge_cases.py ......                                          [ 42%]
-tests\test_foundation.py ........                                        [ 52%]
-tests\test_gmail_poller.py ........                                      [ 61%]
-tests\test_happy_path.py ....                                            [ 66%]
-tests\test_phase1_e2e.py ......                                          [ 73%]
-tests\test_phase2_e2e.py ....                                            [ 78%]
-tests\test_phase3_e2e.py ....                                            [ 83%]
-tests\test_phase4_e2e.py ...                                             [ 86%]
-tests\test_template_accuracy.py .....                                    [ 92%]
-tests\test_validation.py ......                                          [100%]
-
-======================= 84 passed in 246.83s (0:04:06) ========================
 ```
 
 ### Targeted Test Suites
