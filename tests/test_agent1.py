@@ -235,6 +235,7 @@ def test_agent1_automated_voice_enterprise_assumption(agent1_fixture: Agent1Inta
     """Verifies that Agent 1 assumes Enterprise tier when voice_ai_assume_enterprise is active and simulation is not set."""  # What: Docstring; Why: Documents test intent.
     agent1_fixture.voice_client.set_simulation_outcome(None)  # What: Clear explicit simulation outcome; Why: Tests automated assumption fallback.
     agent1_fixture.voice_client.assume_enterprise = True  # What: Activate enterprise assumption; Why: Tests automated voice flow.
+    agent1_fixture.voice_client.simulated_tier = "ENTERPRISE"  # What: Explicitly set simulated tier; Why: Isolates test from environment variable overrides.
 
     raw_email: dict[str, Any] = {  # What: Inbound raw email; Why: Valid deal email.
         "message_id": "msg_auto_ent_01",  # What: Message ID; Why: Email ID.

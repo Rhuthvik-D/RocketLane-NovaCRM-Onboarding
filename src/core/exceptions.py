@@ -1,44 +1,117 @@
-# Define custom exceptions to handle specific error conditions across the pipeline.  # What: Module header; Why: Groups domain-specific error classes for clean handling.
-from typing import Any, Optional  # What: Import typing utilities; Why: Allows type hints on optional details and flexible payloads.
+"""Domain-specific exception hierarchy for the NovaCRM onboarding automation system.
+
+This module defines specialized exception classes used across the pipeline to represent
+distinct operational failure modes, including missing inbound data, telephony issues,
+upstream API communication failures, idempotency conflicts, and stage-gate violations.
+"""
+
+from typing import Any, Optional
 
 
-class NovaCRMError(Exception):  # What: Base exception class; Why: Allows catching any custom error raised by the onboarding pipeline.
-    """Base exception for all NovaCRM onboarding workflow errors."""  # What: Docstring; Why: Documents purpose of the base exception.
-    def __init__(self, message: str, details: Optional[dict[str, Any]] = None) -> None:  # What: Constructor; Why: Stores error message and context.
-        super().__init__(message)  # What: Call parent Exception constructor; Why: Standard Python error propagation.
-        self.message: str = message  # What: Store readable error message; Why: Enables formatted logging and assertions.
-        self.details: dict[str, Any] = details or {}  # What: Store structured metadata context; Why: Aids debugging and audit logs.
+class NovaCRMError(Exception):
+    """Base exception class for all errors originating within the NovaCRM pipeline.
+
+    Attributes:
+        message (str): Human-readable explanation of the error.
+        details (dict[str, Any]): Structured contextual metadata providing debugging insight.
+    """
+
+    def __init__(self, message: str, details: Optional[dict[str, Any]] = None) -> None:
+        """Initializes a new NovaCRMError instance.
+
+        Args:
+            message: Descriptive error message.
+            details: Optional dictionary containing execution context or diagnostic data.
+        """
+        super().__init__(message)
+        self.message: str = message
+        self.details: dict[str, Any] = details or {}
+
+    def __str__(self) -> str:
+        """Returns the string representation of the error."""
+        return self.message
 
 
-class MissingFieldError(NovaCRMError):  # What: Exception for missing mandatory schema fields; Why: Fulfills guardrail to never guess missing data.
-    """Raised when an inbound email omits critical fields like customer_name or ae_name."""  # What: Docstring; Why: Clarifies zero-assumption trigger.
-    pass  # What: Pass statement; Why: Inherits all functionality from NovaCRMError without changes.
+class MissingFieldError(NovaCRMError):
+    """Raised when an inbound deal notification email omits mandatory schema fields.
+
+    This exception enforces the zero-guesswork guardrail when fields such as customer_name,
+    customer_contact_email, ae_name, or ae_phone are missing or whitespace-only.
+    """
+    pass
 
 
-class TelephonyError(NovaCRMError):  # What: Exception for Voice AI failures or ambiguities; Why: Enforces human escalation when voice calls fail.
-    """Raised when the Voice AI outbound call fails, is unanswered, or returns an ambiguous tier."""  # What: Docstring; Why: Explains voice guardrail failure.
-    pass  # What: Pass statement; Why: Inherits error handling logic from NovaCRMError.
+class TelephonyError(NovaCRMError):
+    """Raised when the Voice AI outbound telephony verification encounters a failure.
+
+    Triggers include network transport errors, unanswered calls, carrier timeouts,
+    or ambiguous spoken responses from the Account Executive.
+    """
+    pass
 
 
-class RocketlaneAPIError(NovaCRMError):  # What: Exception for Rocketlane API communication failures; Why: Distinguishes upstream API errors.
-    """Raised when the Rocketlane REST API returns an unexpected error (e.g., HTTP 500)."""  # What: Docstring; Why: Used to trigger retry logic.
-    def __init__(self, message: str, status_code: Optional[int] = None, details: Optional[dict[str, Any]] = None) -> None:  # What: Init with status code; Why: Captures HTTP status.
-        super().__init__(message, details)  # What: Call super init; Why: Initializes base message and details dict.
-        self.status_code: Optional[int] = status_code  # What: Assign HTTP status code; Why: Enables status-specific retry or abort decisions.
+class RocketlaneAPIError(NovaCRMError):
+    """Raised when an interaction with the Rocketlane REST API fails.
+
+    Attributes:
+        status_code (Optional[int]): HTTP response status code (e.g., 500, 503, 400).
+    """
+
+    def __init__(
+        self,
+        message: str,
+        status_code: Optional[int] = None,
+        details: Optional[dict[str, Any]] = None
+    ) -> None:
+        """Initializes a RocketlaneAPIError with HTTP status code support.
+
+        Args:
+            message: Descriptive error message.
+            status_code: The HTTP status code returned by the Rocketlane API.
+            details: Additional payload or error response details.
+        """
+        super().__init__(message, details)
+        self.status_code: Optional[int] = status_code
 
 
-class DuplicateProjectError(NovaCRMError):  # What: Exception for duplicate project creation attempts; Why: Enforces idempotency guardrails.
-    """Raised when a deal has already been provisioned in Rocketlane to prevent duplicate projects."""  # What: Docstring; Why: Explains duplicate guardrail.
-    pass  # What: Pass statement; Why: Inherits standard error behaviors.
+class DuplicateProjectError(NovaCRMError):
+    """Raised when an attempt is made to provision a project that already exists.
+
+    Enforces idempotency constraints to guarantee that duplicate deal emails
+    or concurrent submissions never spawn redundant customer workspaces.
+    """
+    pass
 
 
-class StageGateError(NovaCRMError):  # What: Exception for unverified milestone transitions; Why: Prevents advancing past Data Migration without sign-off.
-    """Raised when a task or milestone transition fails verification criteria (e.g., Data QA)."""  # What: Docstring; Why: Explains gatekeeping logic.
-    pass  # What: Pass statement; Why: Inherits base class error attributes.
+class StageGateError(NovaCRMError):
+    """Raised when an onboarding milestone transition fails verification criteria.
+
+    Used by Agent 3 (Data QA Gatekeeper) to strictly block downstream phases
+    (such as System Configuration) until customer sign-off and 100% record
+    parity are confirmed.
+    """
+    pass
 
 
-class SlackAPIError(NovaCRMError):  # What: Exception for Slack API errors; Why: Captures Slack Web API rejections or transport failures.
-    """Raised when Slack channel provisioning, topic setting, or message dispatch fails."""  # What: Docstring; Why: Explains Slack error purpose.
-    def __init__(self, message: str, error_code: Optional[str] = None, details: Optional[dict[str, Any]] = None) -> None:  # What: Init with error code; Why: Stores Slack API error string.
-        super().__init__(message, details)  # What: Call parent constructor; Why: Sets base message and details.
-        self.error_code: Optional[str] = error_code  # What: Store error code; Why: Allows programmatic handling of specific Slack errors like 'name_taken'.
+class SlackAPIError(NovaCRMError):
+    """Raised when an interaction with the Slack Web API fails.
+
+    Attributes:
+        error_code (Optional[str]): Slack API specific error code (e.g., 'name_taken').
+    """
+
+    def __init__(
+        self,
+        message: str,
+        error_code: Optional[str] = None,
+        details: Optional[dict[str, Any]] = None
+    ) -> None:
+        """Initializes a SlackAPIError with Slack-specific error code tracking.
+
+        Args:
+            message: Descriptive error message.
+            error_code: Slack API error identifier returned in response JSON.
+            details: Full API response dictionary for debugging.
+        """
+        super().__init__(message, details)
+        self.error_code: Optional[str] = error_code

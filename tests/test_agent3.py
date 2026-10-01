@@ -238,3 +238,65 @@ def test_rocketlane_native_sla_export_platform_rules() -> None:  # What: Platfor
     rule_ids = [r["rule_id"] for r in rules]  # What: Extract rule IDs; Why: Inspects rule identifiers.
     assert "rule_sla_1day_pm" in rule_ids  # What: Assert Rule 1 ID; Why: PM warning rule present.
     assert "rule_sla_4day_owner" in rule_ids  # What: Assert Rule 2 ID; Why: Owner escalation rule present.
+
+
+def test_data_qa_rejects_non_migration_task_by_name() -> None:
+    """Verifies that submitting a non-migration task name (e.g. Kickoff) trips the Semantic Guardrail."""
+    agent = Agent3DataQAGatekeeper(
+        rocketlane=RocketlaneClient(mock_mode=True),
+        slack=SlackClient(mock_mode=True),
+    )
+    test_ts = int(datetime.now().timestamp())
+    corr_id = f"test_qa_semantic_name_{test_ts}"
+
+    payload = DataMigrationSignOffPayload(
+        project_id=f"proj_{test_ts}",
+        task_id=f"task_5000_{test_ts}",
+        task_name="Schedule kick-off meeting",  # Non-migration task!
+        customer_name="Apex Dynamics",
+        records_migrated=1000,
+        records_verified=1000,
+        customer_sign_off_confirmed=True,
+        sign_off_contact_email="it@apexdynamics.com",
+    )
+
+    result = agent.evaluate_migration_sign_off(payload, correlation_id=corr_id)
+
+    assert result.status == "REJECTED_BLOCKED"
+    assert result.is_configuration_unlocked is False
+    assert "not a data migration task" in result.audit_rationale or "unrelated" in result.audit_rationale
+
+    entries = audit_logger.get_entries_for_correlation(corr_id)
+    actions = [e.action for e in entries]
+    assert "data_qa_verification_blocked_invalid_task" in actions
+
+
+def test_data_qa_rejects_non_migration_task_by_id() -> None:
+    """Verifies that submitting a task ID indicating an unrelated milestone trips the guardrail."""
+    agent = Agent3DataQAGatekeeper(
+        rocketlane=RocketlaneClient(mock_mode=True),
+        slack=SlackClient(mock_mode=True),
+    )
+    test_ts = int(datetime.now().timestamp())
+    corr_id = f"test_qa_semantic_id_{test_ts}"
+
+    payload = DataMigrationSignOffPayload(
+        project_id=f"proj_{test_ts}",
+        task_id="task_kickoff_meeting_999",  # Non-migration task ID!
+        customer_name="Apex Dynamics",
+        records_migrated=1000,
+        records_verified=1000,
+        customer_sign_off_confirmed=True,
+        sign_off_contact_email="it@apexdynamics.com",
+    )
+
+    result = agent.evaluate_migration_sign_off(payload, correlation_id=corr_id)
+
+    assert result.status == "REJECTED_BLOCKED"
+    assert result.is_configuration_unlocked is False
+    assert "unrelated" in result.audit_rationale
+
+    entries = audit_logger.get_entries_for_correlation(corr_id)
+    actions = [e.action for e in entries]
+    assert "data_qa_verification_blocked_invalid_task" in actions
+

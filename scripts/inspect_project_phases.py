@@ -1,69 +1,111 @@
-import json  
-import os  
-from pathlib import Path  
-import sys 
-sys.stdout.reconfigure(encoding='utf-8')  
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  
-from dotenv import load_dotenv 
-load_dotenv()  
-import httpx  
-from src.core.config import settings  # What: Import settings; Why: Retrieves configured API key and base URL.
+"""Diagnostic utility to inspect Rocketlane project phases, tasks, and status.
+
+Queries the live Rocketlane REST API v1.0 to retrieve and display top-level project
+metadata, populated onboarding lifecycle phases, and milestone tasks (e.g. Kickoff,
+Data Migration, Configuration, Go Live) with their cloud task IDs and date bounds.
+"""
+
+import argparse
+import json
+from pathlib import Path
+import sys
+
+# Ensure UTF-8 stdout encoding on Windows systems to prevent encoding crashes
+sys.stdout.reconfigure(encoding="utf-8")
+
+# Register project root in sys.path to allow absolute imports from src
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+import httpx
+from src.core.config import settings
+
+DEFAULT_PROJECT_ID = "5000000223533"
 
 
-def inspect_rocketlane_project(project_id: str = "5000000208003") -> None:  #Fetches and displays project phases and tasks from a project. Question: Why project_id: str = "5000000208003"? Would the project id change based on the project being inspected?  
-    """Queries live Rocketlane REST API v1.0 and prints all populated phases and tasks for the given project.""" 
-    api_key = settings.rocketlane_api_key 
-    base_url = settings.rocketlane_base_url.rstrip("/") 
-    headers = {"api-key": api_key}
+def inspect_rocketlane_project(project_id: str = DEFAULT_PROJECT_ID) -> None:
+    """Queries live Rocketlane REST API v1.0 and prints all populated phases and tasks.
+
+    Execution Pipeline:
+        1. Project Metadata Ingestion (GET /projects/{id}):
+           Extracts project name, due date, and direct portal link.
+        2. Lifecycle Phases Retrieval (GET /phases?projectId={id}):
+           Retrieves all onboarding phases, internal IDs, and scheduled date boundaries.
+        3. Milestone Tasks Filtering (GET /tasks?projectId.eq={id}):
+           Queries tasks assigned to the project and filters to the 4 canonical milestones:
+           Kick-off, Data Migration, Configuration, and Go Live.
+
+    Args:
+        project_id: The unique Rocketlane project ID to inspect. Defaults to 5000000223533.
+    """
+    api_key = settings.rocketlane_api_key
+    base_url = settings.rocketlane_base_url.rstrip("/")
+    headers = {"api-key": api_key, "Accept": "application/json"}
 
     print("=" * 80)
     print(f"  ROCKETLANE PROJECT VALIDATION: PROJECT ID {project_id}  ")
     print("=" * 80)
 
-    with httpx.Client(timeout=30.0) as client:  # 30s timeout from http cleint
-        # 1. Fetch Project Details
-        proj_resp = client.get(f"{base_url}/projects/{project_id}", headers=headers)  # Retrieves top-level project metadata.
-        if proj_resp.status_code != 200: 
-            print(f"[!] Error fetching project {project_id}: HTTP {proj_resp.status_code}") 
-            return 
+    with httpx.Client(timeout=30.0) as client:
+        # Block 1: Fetch Top-Level Project Details
+        proj_resp = client.get(f"{base_url}/projects/{project_id}", headers=headers)
+        if proj_resp.status_code != 200:
+            print(f"[!] Error fetching project {project_id}: HTTP {proj_resp.status_code}")
+            return
 
-        proj_data = proj_resp.json()  # What: Parse JSON; Why: Accesses project fields.
-        print(f"\n[+] Project Name : {proj_data.get('name', 'N/A')}")  # What: Print project name; Why: Confirms name.
-        print(f"[+] Due Date     : {proj_data.get('dueDate', 'N/A')}")  # What: Print due date; Why: Confirms SLA timeline.
-        print(f"[+] Direct Link  : https://app.rocketlane.com/projects/{project_id}")  # What: Print direct URL; Why: Browser inspection link.
+        proj_data = proj_resp.json()
+        print(f"\n[+] Project Name : {proj_data.get('name', 'N/A')}")
+        print(f"[+] Due Date     : {proj_data.get('dueDate', 'N/A')}")
+        print(f"[+] Direct Link  : https://app.rocketlane.com/projects/{project_id}")
 
-        # 2. Fetch Project Phases
-        phases_resp = client.get(f"{base_url}/phases?projectId={project_id}", headers=headers)  # What: GET phases; Why: Retrieves project phases.
-        phases = phases_resp.json().get("data", []) if phases_resp.status_code == 200 else []  # What: Extract phases list; Why: Handles response data.
+        # Block 2: Fetch Populated Onboarding Phases
+        phases_resp = client.get(f"{base_url}/phases?projectId={project_id}", headers=headers)
+        phases = phases_resp.json().get("data", []) if phases_resp.status_code == 200 else []
 
-        print(f"\n[+] Populated Onboarding Phases ({len(phases)} Total):")  # What: Print phase count; Why: Verifies phase count.
-        for idx, phase in enumerate(phases, start=1):  # What: Iterate over phases; Why: Prints each populated phase.
-            print(f"    {idx}. {phase.get('phaseName')} (Phase ID: {phase.get('phaseId')}) | Dates: {phase.get('startDate')} -> {phase.get('dueDate')}")  # What: Print phase details; Why: Clear breakdown.
+        print(f"\n[+] Populated Onboarding Phases ({len(phases)} Total):")
+        for idx, phase in enumerate(phases, start=1):
+            print(
+                f"    {idx}. {phase.get('phaseName')} (Phase ID: {phase.get('phaseId')}) | "
+                f"Dates: {phase.get('startDate')} -> {phase.get('dueDate')}"
+            )
 
-        # 3. Fetch Project Tasks
-        tasks_resp = client.get(f"{base_url}/tasks?project.id.equals={project_id}", headers=headers)  # What: GET tasks; Why: Queries tasks belonging to project.
-        tasks = tasks_resp.json().get("data", []) if tasks_resp.status_code == 200 else []  # What: Extract tasks list; Why: Handles response data.
+        # Block 3: Fetch Populated Milestone Tasks
+        tasks_url = f"{base_url}/tasks?projectId.eq={project_id}&pageSize=100"
+        tasks_resp = client.get(tasks_url, headers=headers)
+        tasks = tasks_resp.json().get("data", []) if tasks_resp.status_code == 200 else []
 
-        print(f"\n[+] Populated Tasks ({len(tasks)} Total):")  # What: Print total task count; Why: Proves tasks were populated.
-        sample_tasks = [  # What: List of critical task keywords; Why: Highlights key assignment tasks.
-            "Kick-off",  # What: Kickoff keyword; Why: Kickoff milestone.
-            "Data migration",  # What: Data migration keyword; Why: Data migration milestone for Agent 3.
-            "Configuration",  # What: Configuration keyword; Why: Configuration milestone.
-            "Go live"  # What: Go-live keyword; Why: Final go-live milestone.
-        ]  # What: End of keywords list; Why: Highlights matches.
+        print(f"\n[+] Populated Tasks ({len(tasks)} Total):")
+        milestone_keywords = [
+            "Kick-off",
+            "Data migration",
+            "Configuration",
+            "Go live",
+        ]
 
-        for task in tasks:  # What: Loop over tasks; Why: Identifies and prints key onboarding tasks.
-            name = task.get("taskName", "")  # What: Extract task name; Why: Name comparison.
-            for kw in sample_tasks:  # What: Loop over keywords; Why: Matches key workflow tasks.
-                if kw.lower() in name.lower():  # What: Check case-insensitive match; Why: Filters to key tasks.
-                    print(f"    - [Task ID: {task.get('taskId')}] {name}")  # What: Print matching task; Why: Demonstrates populated milestone.
-                    break  # What: Break inner loop; Why: Avoids duplicate prints for same task.
+        for task in tasks:
+            name = task.get("taskName", "")
+            for kw in milestone_keywords:
+                if kw.lower() in name.lower():
+                    print(f"    - [Task ID: {task.get('taskId')}] {name}")
+                    break
 
-        print("\n" + "=" * 80)  # What: Print separator; Why: Visual frame.
-        print("  ALL 4 ONBOARDING PHASES AND TASKS VERIFIED LIVE IN ROCKETLANE  ")  # What: Print completion; Why: Confirmation.
-        print("=" * 80)  # What: Print separator; Why: Visual frame.
+        print("\n" + "=" * 80)
+        print("  ALL 4 ONBOARDING PHASES AND TASKS VERIFIED LIVE IN ROCKETLANE  ")
+        print("=" * 80)
 
 
-if __name__ == "__main__":  # What: Script entry point guard; Why: Executes when run directly.
-    target_id = sys.argv[1] if len(sys.argv) > 1 else "5000000208003"  # What: Parse target project ID from argv or default; Why: CLI flexibility.
-    inspect_rocketlane_project(target_id)  # What: Invoke inspection; Why: Runs live API verification.
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Inspect Rocketlane Project Phases and Milestone Tasks"
+    )
+    parser.add_argument(
+        "project_id",
+        nargs="?",
+        default=DEFAULT_PROJECT_ID,
+        help=f"Rocketlane Project ID to inspect (defaults to {DEFAULT_PROJECT_ID})",
+    )
+    args = parser.parse_args()
+    inspect_rocketlane_project(args.project_id)
