@@ -16,10 +16,9 @@ env/
 .coverage
 htmlcov/
 
-# Logs (may contain customer PII or raw deal emails)
-logs/*.jsonl
-logs/*.log
-!logs/.gitkeep
+# Logs & internal cache
+logs/
+.cache/
 
 # IDE & OS files
 .vscode/
@@ -29,3 +28,10 @@ Thumbs.db
 
 # Agent workspace metadata
 .agents/
+
+# Sanitized internal documentation & assignment artifacts
+docs/
+CHECKPOINT.md
+checkpoint*.md
+Rocketlane*.pdf
+prompt.md
