@@ -16,8 +16,9 @@ env/
 .coverage
 htmlcov/
 
-# Logs & internal cache
-logs/
+# Logs & internal cache (track directory via .gitkeep, ignore log files)
+logs/*
+!logs/.gitkeep
 .cache/
 
 # IDE & OS files
