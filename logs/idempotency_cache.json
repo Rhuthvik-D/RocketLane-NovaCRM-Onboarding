@@ -1,0 +1,1550 @@
+{
+  "e2e_idempotency_test_1790608083": {
+    "project_id": "5000000208398",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208398",
+    "created_at": "2026-09-28T15:08:37.815534Z",
+    "is_duplicate": true
+  },
+  "6374a0165d9f68a62d43211d92d17a764b4960c05644ce7550225dfc7569d93c": {
+    "project_id": "5000000208400",
+    "project_name": "Acme Global Labs 1790608119 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208400",
+    "created_at": "2026-09-28T15:09:00.649140Z",
+    "is_duplicate": true
+  },
+  "51865f31e535ff2768bfba37923a37ea15967e38d7bf2f26a2779e032a3a357e": {
+    "project_id": "5000000208401",
+    "project_name": "Dunder Mifflin 1790608141 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208401",
+    "created_at": "2026-09-28T15:09:33.784601Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790608648": {
+    "project_id": "5000000208409",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208409",
+    "created_at": "2026-09-28T15:17:56.825788Z",
+    "is_duplicate": true
+  },
+  "894fb04c5818f0855a74f63b8017892277d4b5f2253ed1c98ed5962baba492d6": {
+    "project_id": "5000000208411",
+    "project_name": "Acme Global Labs 1790608678 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208411",
+    "created_at": "2026-09-28T15:18:20.304108Z",
+    "is_duplicate": true
+  },
+  "d14022eaa1f4544e24217e9dbf2f1f0a5a17d40d2c192aa88e2e56e1114a8b7e": {
+    "project_id": "5000000208412",
+    "project_name": "Dunder Mifflin 1790608701 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208412",
+    "created_at": "2026-09-28T15:18:51.499777Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790609506": {
+    "project_id": "5000000208436",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208436",
+    "created_at": "2026-09-28T15:32:19.068446Z",
+    "is_duplicate": true
+  },
+  "199cef81a2dd482c8abea035f9e406996d620ee3732c63caf21b77085f3bc421": {
+    "project_id": "5000000208441",
+    "project_name": "Acme Global Labs 1790609540 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208441",
+    "created_at": "2026-09-28T15:32:41.689941Z",
+    "is_duplicate": true
+  },
+  "ea5eaeb60f7a211f3c5040b4c992cd9577a163ccb1b80010068cf70d9ba4e28d": {
+    "project_id": "5000000208443",
+    "project_name": "Dunder Mifflin 1790609562 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208443",
+    "created_at": "2026-09-28T15:33:10.392398Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790643039": {
+    "project_id": "5000000219291",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219291",
+    "created_at": "2026-09-29T00:51:09.561263Z",
+    "is_duplicate": true
+  },
+  "e3104b5057c82d6974c1bb51ce662bd6d132d72468718e872d374ea09dc392a7": {
+    "project_id": "5000000219292",
+    "project_name": "Acme Global Labs 1790643070 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219292",
+    "created_at": "2026-09-29T00:51:31.735597Z",
+    "is_duplicate": true
+  },
+  "37e21ff3b38b77e0fce7c07406ae34d5f5eff00d6d437def40cdaa5f33b95314": {
+    "project_id": "5000000219293",
+    "project_name": "Dunder Mifflin 1790643092 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219293",
+    "created_at": "2026-09-29T00:51:52.688574Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790645905": {
+    "project_id": "5000000219319",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219319",
+    "created_at": "2026-09-29T01:38:56.673840Z",
+    "is_duplicate": true
+  },
+  "6014d17f0398c0df5d0fed87776a5a1d2f182e606eec170eb66a1abb80c64798": {
+    "project_id": "5000000219320",
+    "project_name": "Acme Global Labs 1790645937 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219320",
+    "created_at": "2026-09-29T01:39:28.341760Z",
+    "is_duplicate": true
+  },
+  "708c38c44e9abba821a66ebf53e7b79ef0da8e1b27632ad35a756a2089a64ac5": {
+    "project_id": "5000000219322",
+    "project_name": "Dunder Mifflin 1790645969 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219322",
+    "created_at": "2026-09-29T01:39:56.836194Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790434414": {
+    "project_id": "5000000207988",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000207988",
+    "created_at": "2026-09-26T14:53:53.547351Z",
+    "is_duplicate": true
+  },
+  "526f10049e9f82586b42b0385d5b10dc856eca129d57252aae7fc2f2684b55f5": {
+    "project_id": "5000000207990",
+    "project_name": "Dunder Mifflin 1790437756 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000207990",
+    "created_at": "2026-09-26T15:49:37.955295Z",
+    "is_duplicate": true
+  },
+  "2e8d8d83b65151981aad7c1e42867b745aab56001e02e2827500704545f74748": {
+    "project_id": "5000000207993",
+    "project_name": "Acme Global Labs 1790437895 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000207993",
+    "created_at": "2026-09-26T15:52:00.277702Z",
+    "is_duplicate": true
+  },
+  "70c67948fb67495a8ebe9929600df56a97908d1e0030fac82f912a265e2ab1d2": {
+    "project_id": "5000000207994",
+    "project_name": "Dunder Mifflin 1790437921 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000207994",
+    "created_at": "2026-09-26T15:52:33.694968Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790441917": {
+    "project_id": "5000000207996",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000207996",
+    "created_at": "2026-09-26T16:58:57.625962Z",
+    "is_duplicate": true
+  },
+  "b75749544d8249b99a9c96ad84d3a151200d510bbacbebd0cd61def5f6818624": {
+    "project_id": "5000000207997",
+    "project_name": "Acme Global Labs 1790441938 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000207997",
+    "created_at": "2026-09-26T16:59:17.111467Z",
+    "is_duplicate": true
+  },
+  "563c65b3ca6590e87bf0232efda4f78a70c036b9c4c15e134730e268f95a1efd": {
+    "project_id": "5000000207998",
+    "project_name": "Dunder Mifflin 1790441957 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000207998",
+    "created_at": "2026-09-26T16:59:50.311596Z",
+    "is_duplicate": true
+  },
+  "3d4a787c9d83a70636569506320c3c53cb4b9113926eb9d3b0e28b551ec8c675": {
+    "project_id": "5000000208000",
+    "project_name": "Sanity Corp ENTERPRISE - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208000",
+    "created_at": "2026-09-26T17:13:21.926160Z",
+    "is_duplicate": true
+  },
+  "a8ae42793948cd503c362f89cc26820e5fbbc5a60ba6c86cc745fc15b89c5f6c": {
+    "project_id": "5000000208001",
+    "project_name": "Sanity Corp GROWTH - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208001",
+    "created_at": "2026-09-26T17:13:51.774627Z",
+    "is_duplicate": true
+  },
+  "35381794af59b5a645945605861880094aae39ea41a37aa30ed17818460e2e1c": {
+    "project_id": "5000000208002",
+    "project_name": "Apex Dynamics 64899 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208002",
+    "created_at": "2026-09-26T23:21:59.451547Z",
+    "is_duplicate": true
+  },
+  "fc371dbccc9569fcd1e1ee255489b8e3abfcedf0c14f54f2d387a87cba3ca866": {
+    "project_id": "5000000208003",
+    "project_name": "Apex Dynamics 64950 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208003",
+    "created_at": "2026-09-26T23:22:59.059428Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790466900": {
+    "project_id": "5000000208004",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208004",
+    "created_at": "2026-09-26T23:55:31.081606Z",
+    "is_duplicate": true
+  },
+  "6c0fc5fd0c5a1514832f63962798a71eb8b0eb36f01c04ea256b3bcf28d7e411": {
+    "project_id": "5000000208005",
+    "project_name": "Acme Global Labs 1790466932 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208005",
+    "created_at": "2026-09-26T23:56:02.422672Z",
+    "is_duplicate": true
+  },
+  "5c41cf8e7da04232be4177b5fa59e5568368ef0480e6417ef7cfce222eb2fce2": {
+    "project_id": "5000000208006",
+    "project_name": "Dunder Mifflin 1790466963 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208006",
+    "created_at": "2026-09-26T23:56:28.259698Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790471150": {
+    "project_id": "5000000208023",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208023",
+    "created_at": "2026-09-27T01:06:11.611745Z",
+    "is_duplicate": true
+  },
+  "92f4e20e0fc7fe2fca3dec68364e0408768f49d2b6315c1dd2442a75da48a512": {
+    "project_id": "5000000208024",
+    "project_name": "Acme Global Labs 1790471172 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208024",
+    "created_at": "2026-09-27T01:06:32.412707Z",
+    "is_duplicate": true
+  },
+  "c34c3d9a05070b970a1851a5a99eb2fd9f2f6b181fa14dc09104c67af596dfba": {
+    "project_id": "5000000208025",
+    "project_name": "Dunder Mifflin 1790471193 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208025",
+    "created_at": "2026-09-27T01:07:09.585050Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790520029": {
+    "project_id": "5000000208068",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208068",
+    "created_at": "2026-09-27T14:40:59.996249Z",
+    "is_duplicate": true
+  },
+  "6fe7994d778cd6cb69eb6593e77da1903a17bd30de1e1f4160e4549a67c316e1": {
+    "project_id": "5000000208069",
+    "project_name": "Acme Global Labs 1790520061 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208069",
+    "created_at": "2026-09-27T14:41:20.403829Z",
+    "is_duplicate": true
+  },
+  "19b962e7c55719d80519b7c34dc83c149dab292458c4d08fad497970066ec721": {
+    "project_id": "5000000208070",
+    "project_name": "Dunder Mifflin 1790520081 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208070",
+    "created_at": "2026-09-27T14:41:54.833422Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790521812": {
+    "project_id": "5000000208071",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208071",
+    "created_at": "2026-09-27T15:10:47.369911Z",
+    "is_duplicate": true
+  },
+  "b61168be42926428cd9cbd27cd19a6b87339f607eef923eddb6a47ae2cdac023": {
+    "project_id": "5000000208072",
+    "project_name": "Acme Global Labs 1790521848 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208072",
+    "created_at": "2026-09-27T15:11:21.277009Z",
+    "is_duplicate": true
+  },
+  "a7be606620da94ce141cadc1961da845c2bc422cf557948cd68c72de14e5ffac": {
+    "project_id": "5000000208073",
+    "project_name": "Dunder Mifflin 1790521882 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208073",
+    "created_at": "2026-09-27T15:11:45.588321Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790522152": {
+    "project_id": "5000000208074",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208074",
+    "created_at": "2026-09-27T15:16:16.600276Z",
+    "is_duplicate": true
+  },
+  "316024cfe5349ae2117616841edd9cb002d11155050fb97606f4265fee7085a1": {
+    "project_id": "5000000208075",
+    "project_name": "Acme Global Labs 1790522178 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208075",
+    "created_at": "2026-09-27T15:16:51.701239Z",
+    "is_duplicate": true
+  },
+  "0331c2c40bf7af3b1922c876e2cf16d3bd8c043f23390411fbc3aaab3de21d30": {
+    "project_id": "5000000208076",
+    "project_name": "Dunder Mifflin 1790522212 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208076",
+    "created_at": "2026-09-27T15:17:26.027261Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790527484": {
+    "project_id": "5000000208079",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208079",
+    "created_at": "2026-09-27T16:45:05.469417Z",
+    "is_duplicate": true
+  },
+  "46bb3dc2cf7bb3b9d517bf2faef7bc4ab8153f7b99e440c6e97a23035434d23d": {
+    "project_id": "5000000208080",
+    "project_name": "Acme Global Labs 1790527506 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208080",
+    "created_at": "2026-09-27T16:45:31.972408Z",
+    "is_duplicate": true
+  },
+  "29236558583a43cbf908407ae9913a00f972a3d824a72f23f4bb493f1dcbac8f": {
+    "project_id": "5000000208081",
+    "project_name": "Dunder Mifflin 1790527532 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208081",
+    "created_at": "2026-09-27T16:46:06.363703Z",
+    "is_duplicate": true
+  },
+  "55e94036981673790e2c059ef3ed36b697e14c02a0862d3ba8b377163deee6f8": {
+    "project_id": "5000000208084",
+    "project_name": "Dromecyb Systems - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208084",
+    "created_at": "2026-09-27T17:33:29.379490Z",
+    "is_duplicate": true
+  },
+  "27e9c291b28e407b4d264f5088fcd6612b6f94ce286e184baa8c3f1876d3fa2b": {
+    "project_id": "5000000208085",
+    "project_name": "Teledrome Systems - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208085",
+    "created_at": "2026-09-27T17:59:43.840861Z",
+    "is_duplicate": true
+  },
+  "9de7d9033ed15a87fe0851df5b1bd9a1cc10c29da944fb3fa79dae6ac8fa40a5": {
+    "project_id": "5000000208086",
+    "project_name": "QuizDrone Systems - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208086",
+    "created_at": "2026-09-27T18:19:11.606290Z",
+    "is_duplicate": true
+  },
+  "d7fcf2a9c598d37763531f3fb12f85a7aae9f46783df76e1755d504bed430a5c": {
+    "project_id": "5000000208093",
+    "project_name": "CyberScript Systems - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208093",
+    "created_at": "2026-09-27T22:17:19.916585Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790548855": {
+    "project_id": "5000000208094",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208094",
+    "created_at": "2026-09-27T22:41:20.595877Z",
+    "is_duplicate": true
+  },
+  "3ec4fdeb7e07f24ba7a2f0e1adb3e2e7b5741cdacf0320ffa9981090e498ab52": {
+    "project_id": "5000000208095",
+    "project_name": "Acme Global Labs 1790548881 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208095",
+    "created_at": "2026-09-27T22:41:45.334722Z",
+    "is_duplicate": true
+  },
+  "99a170b6c64745eb5d8c575b632f58615467779a340cef0792cb78d584ce70fc": {
+    "project_id": "5000000208096",
+    "project_name": "Dunder Mifflin 1790548906 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208096",
+    "created_at": "2026-09-27T22:42:16.853530Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790550852": {
+    "project_id": "5000000208097",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208097",
+    "created_at": "2026-09-27T23:14:36.330790Z",
+    "is_duplicate": true
+  },
+  "81fb56039965162059f4dd2b1c2dbe8926f87743a8a03495cbd7480d15063b42": {
+    "project_id": "5000000208098",
+    "project_name": "Acme Global Labs 1790550878 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208098",
+    "created_at": "2026-09-27T23:15:05.330918Z",
+    "is_duplicate": true
+  },
+  "f34393aa6d86ab01ab9643191f000bdcea569f125f270bde6af02c32029af77f": {
+    "project_id": "5000000208099",
+    "project_name": "Dunder Mifflin 1790550907 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208099",
+    "created_at": "2026-09-27T23:15:36.032889Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790554954": {
+    "project_id": "5000000208104",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208104",
+    "created_at": "2026-09-28T00:22:59.475946Z",
+    "is_duplicate": true
+  },
+  "4e8f6dddd110e906303c8f21975cbaac0ac5d27241c0381aed2c55dd36f8dbdc": {
+    "project_id": "5000000208105",
+    "project_name": "Acme Global Labs 1790554980 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208105",
+    "created_at": "2026-09-28T00:23:33.064177Z",
+    "is_duplicate": true
+  },
+  "46202abb0feedc1284ccd70195b540d8e99100fb7a4813dd1afd375162337433": {
+    "project_id": "5000000208106",
+    "project_name": "Dunder Mifflin 1790555014 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208106",
+    "created_at": "2026-09-28T00:23:57.583409Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790604974": {
+    "project_id": "5000000208352",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208352",
+    "created_at": "2026-09-28T14:16:39.597836Z",
+    "is_duplicate": true
+  },
+  "899709c68c3f62ba60d81b741155db468c76f17147d78a351a5e1c0f9effe8b8": {
+    "project_id": "5000000208353",
+    "project_name": "Acme Global Labs 1790605000 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208353",
+    "created_at": "2026-09-28T14:17:07.305992Z",
+    "is_duplicate": true
+  },
+  "38b788e2f4787542c445fc32e081220d39b9b0dfe99207e048e272d8662eff09": {
+    "project_id": "5000000208354",
+    "project_name": "Dunder Mifflin 1790605028 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000208354",
+    "created_at": "2026-09-28T14:17:28.722549Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790646388": {
+    "project_id": "5000000219328",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219328",
+    "created_at": "2026-09-29T01:46:51.967827Z",
+    "is_duplicate": true
+  },
+  "818e51c54db0bf3c50f199c9e61172ea1fb9988a7d52464a1a5fd43508004b03": {
+    "project_id": "5000000219330",
+    "project_name": "Acme Global Labs 1790646415 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219330",
+    "created_at": "2026-09-29T01:47:14.931557Z",
+    "is_duplicate": true
+  },
+  "bb4cf4b5fdec19bcf3e05adf0cffc36fc99284d15fd842bc7629b849da5a79d0": {
+    "project_id": "5000000219331",
+    "project_name": "Dunder Mifflin 1790646435 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219331",
+    "created_at": "2026-09-29T01:47:41.701082Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790686015": {
+    "project_id": "5000000219469",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219469",
+    "created_at": "2026-09-29T12:47:19.886003Z",
+    "is_duplicate": true
+  },
+  "76afe7d86868e79086ca6acdcdccea646c2d5f0836df226a45103a9cc9fc5bac": {
+    "project_id": "5000000219471",
+    "project_name": "Acme Global Labs 1790686041 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219471",
+    "created_at": "2026-09-29T12:47:55.985947Z",
+    "is_duplicate": true
+  },
+  "149b32add842f723bce3b4ec37e39a2d7a5a7189500d810504dc075cd13d98c9": {
+    "project_id": "5000000219472",
+    "project_name": "Dunder Mifflin 1790686076 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219472",
+    "created_at": "2026-09-29T12:48:16.720458Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790687702": {
+    "project_id": "5000000219487",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219487",
+    "created_at": "2026-09-29T13:15:39.359061Z",
+    "is_duplicate": true
+  },
+  "fd6ebb6859ca426f7e13f304bf5487362408adb239dd90f76110ff5045597625": {
+    "project_id": "5000000219489",
+    "project_name": "Acme Global Labs 1790687740 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219489",
+    "created_at": "2026-09-29T13:16:04.173045Z",
+    "is_duplicate": true
+  },
+  "6ccb7c63800c0947daf4ace48da60dd2fa8029f6eefe66ea1e187ba6d401771b": {
+    "project_id": "5000000219491",
+    "project_name": "Dunder Mifflin 1790687764 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219491",
+    "created_at": "2026-09-29T13:16:24.588054Z",
+    "is_duplicate": true
+  },
+  "0eeb03f9161d2410e51894839ef7de7c650eece198e02b13bdff84a2f4c64d33": {
+    "project_id": "5000000219495",
+    "project_name": "Apex Dynamics 88301 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219495",
+    "created_at": "2026-09-29T13:25:25.795452Z",
+    "is_duplicate": true
+  },
+  "f40c19c78d192692be0d3aa1e124e8cd19749db8429245ce6666c87188eababb": {
+    "project_id": "5000000219496",
+    "project_name": "Beacon Logistics 88327 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219496",
+    "created_at": "2026-09-29T13:25:56.245330Z",
+    "is_duplicate": true
+  },
+  "8293a97dbf2cfef34401850799a1fab52ba9f7fe563f114cdbc355431c892b04": {
+    "project_id": "5000000219501",
+    "project_name": "Apex Dynamics 88528 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219501",
+    "created_at": "2026-09-29T13:29:20.527907Z",
+    "is_duplicate": true
+  },
+  "a512a033bcea06ed01fc3390534234929fd0e2b356718d0091d6d268565a2ccb": {
+    "project_id": "5000000219502",
+    "project_name": "Beacon Logistics 88562 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219502",
+    "created_at": "2026-09-29T13:29:51.542839Z",
+    "is_duplicate": true
+  },
+  "dadfe0aabeb42a1c3d0f45143a563c3bd2e2b6ddcefee578c68e5ebabf83c170": {
+    "project_id": "5000000219503",
+    "project_name": "Horizon Health 88593 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219503",
+    "created_at": "2026-09-29T13:30:30.533748Z",
+    "is_duplicate": true
+  },
+  "2aafd15ed386da6cc7e77448a287b0e0f43bcd44c3c4b4c7688fc0f1d0397d1c": {
+    "project_id": "5000000219504",
+    "project_name": "Apex Dynamics 89021 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219504",
+    "created_at": "2026-09-29T13:37:22.860825Z",
+    "is_duplicate": true
+  },
+  "c6311e9c4c7b6bf8366cf1f7e0337aab16ceacf20396e6d3227e4d834369fecd": {
+    "project_id": "5000000219505",
+    "project_name": "Beacon Logistics 89044 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219505",
+    "created_at": "2026-09-29T13:37:45.056202Z",
+    "is_duplicate": true
+  },
+  "feaff78f64ff84f3e3529db01209a58a63d223b4df9d6a2150f11ab0c36f45ce": {
+    "project_id": "5000000219506",
+    "project_name": "Horizon Health 89066 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219506",
+    "created_at": "2026-09-29T13:38:20.228023Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790689100": {
+    "project_id": "5000000219508",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219508",
+    "created_at": "2026-09-29T13:38:42.441290Z",
+    "is_duplicate": true
+  },
+  "4511549d9f88299085700fd97bac978772f2e6dbca4b99a9bfd5cc502777dbc6": {
+    "project_id": "5000000219509",
+    "project_name": "Acme Global Labs 1790689123 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219509",
+    "created_at": "2026-09-29T13:39:18.004671Z",
+    "is_duplicate": true
+  },
+  "3b49ae9d508012a8689438800d18224d16c89289e9c21d6b9d57fb23e369020f": {
+    "project_id": "5000000219513",
+    "project_name": "Dunder Mifflin 1790689158 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219513",
+    "created_at": "2026-09-29T13:39:48.271351Z",
+    "is_duplicate": true
+  },
+  "c08820fd2dc0e2124b281df1a97e74808612dd70c43114baf3ab65f926949521": {
+    "project_id": "5000000219526",
+    "project_name": "Beacon Logistics - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219526",
+    "created_at": "2026-09-29T13:54:04.161885Z",
+    "is_duplicate": true
+  },
+  "470e9812d008ff2a142a429a7607628057238c6dcf70a88a3346f5e986091328": {
+    "project_id": "5000000219527",
+    "project_name": "Apex Dynamics 90118 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219527",
+    "created_at": "2026-09-29T13:55:54.186273Z",
+    "is_duplicate": true
+  },
+  "1fc15a0071b1f17f4c218a0b45e08a95e9294954f82be2a51b23691dfbfc6dd3": {
+    "project_id": "5000000219528",
+    "project_name": "Beacon Logistics 90155 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219528",
+    "created_at": "2026-09-29T13:56:22.615035Z",
+    "is_duplicate": true
+  },
+  "acd930c453fc09569d015c1a63840139919a2719eaa194f26e28212a89fcd411": {
+    "project_id": "5000000219529",
+    "project_name": "Horizon Health 90184 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000219529",
+    "created_at": "2026-09-29T13:56:59.681453Z",
+    "is_duplicate": true
+  },
+  "a045a0c7a8e6e0e8723decf1e5ea9af7a40b142d7c48b4cb72fb175f54482d28": {
+    "project_id": "5000000220572",
+    "project_name": "Enterprise Apex 3222 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000220572",
+    "created_at": "2026-09-29T17:34:02.457408Z",
+    "is_duplicate": true
+  },
+  "333c108a63f148f4def5f20f8d931ec8b1efe5a07fb48589e77ea733e00ec7c3": {
+    "project_id": "5000000220574",
+    "project_name": "Growth Velocity 3244 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000220574",
+    "created_at": "2026-09-29T17:34:23.118019Z",
+    "is_duplicate": true
+  },
+  "idemp_wire_ent_999": {
+    "project_id": "5000000099999",
+    "project_name": "OmniCorp - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000099999",
+    "created_at": "2026-09-29T17:34:24.926750Z",
+    "is_duplicate": true
+  },
+  "idemp_wire_grw_999": {
+    "project_id": "5000000099999",
+    "project_name": "MiniCorp - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000099999",
+    "created_at": "2026-09-29T17:34:24.927762Z",
+    "is_duplicate": true
+  },
+  "a7a21206ea426bc2bee1565e3693b172c45cc3c1a42ca0b0a14b05f75b884533": {
+    "project_id": "5000000220576",
+    "project_name": "Enterprise Apex 3332 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000220576",
+    "created_at": "2026-09-29T17:36:08.591758Z",
+    "is_duplicate": true
+  },
+  "f50efd2f8f165113f34532b1269eb4c07147bf16504f444f59cc32c7c55547fb": {
+    "project_id": "5000000220579",
+    "project_name": "Growth Velocity 3370 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000220579",
+    "created_at": "2026-09-29T17:36:29.387000Z",
+    "is_duplicate": true
+  },
+  "e48641a1133618c1bbf234066214d50c330ce962e4d7225d2beaf35762977417": {
+    "project_id": "5000000220584",
+    "project_name": "Enterprise Apex 3576 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000220584",
+    "created_at": "2026-09-29T17:40:10.944823Z",
+    "is_duplicate": true
+  },
+  "8b1f8d9ce94a12566a899b5ad9584e0f3f914df58394f97346e8ad2a864d7d0b": {
+    "project_id": "5000000220585",
+    "project_name": "Growth Velocity 3612 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000220585",
+    "created_at": "2026-09-29T17:40:44.717022Z",
+    "is_duplicate": true
+  },
+  "dc501a454e77dfecb7213def14a9f8c48b4c1344b3b24d8308a6f01aa9f33ebb": {
+    "project_id": "5000000220792",
+    "project_name": "Apex Dynamics 13481 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000220792",
+    "created_at": "2026-09-29T20:24:59.986922Z",
+    "is_duplicate": true
+  },
+  "cadfb84ea6a973849a69e285bdf5526a0295fc99ce97411ff7b73e1e885ceb09": {
+    "project_id": "5000000220795",
+    "project_name": "Horizon Health 13633 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000220795",
+    "created_at": "2026-09-29T20:27:37.918131Z",
+    "is_duplicate": true
+  },
+  "f851b85df24e5bb81a84eedd51614835061cb44d0e219bf01f634d9d8e376805": {
+    "project_id": "5000000220796",
+    "project_name": "Horizon Health 13812 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000220796",
+    "created_at": "2026-09-29T20:30:37.412068Z",
+    "is_duplicate": true
+  },
+  "ad32db8e25a93a5400702f3c4c4084191c519f824c545d998470209083ef168e": {
+    "project_id": "5000000220818",
+    "project_name": "Apex Dynamics - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000220818",
+    "created_at": "2026-09-29T21:01:43.567964Z",
+    "is_duplicate": true
+  },
+  "21e7784a76ffaf7cd40f0c3677f6ef2735e50540bd59232bb68414a7ae83c25b": {
+    "project_id": "5000000222905",
+    "project_name": "StartScript Systems - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222905",
+    "created_at": "2026-09-29T21:09:46.297468Z",
+    "is_duplicate": true
+  },
+  "ab5dc95fafe90c2f67fcf8cc98f9b16e70730aa6c9ddad25cdc3392a0a5d878a": {
+    "project_id": "5000000222909",
+    "project_name": "Scriptster Systems - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222909",
+    "created_at": "2026-09-29T21:12:57.820011Z",
+    "is_duplicate": true
+  },
+  "bc03f1f76e116ec9054187ee2ee9e51b189dc09baa9186462dbc5b8676444323": {
+    "project_id": "5000000222955",
+    "project_name": "Apex Dynamics 22828 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222955",
+    "created_at": "2026-09-29T23:00:45.931350Z",
+    "is_duplicate": true
+  },
+  "87eae8fc3d41bd04499f1dcf87c12d29bd70ad4586d5c6f0743dd5945d4489d5": {
+    "project_id": "5000000222960",
+    "project_name": "Beacon Logistics 22940 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222960",
+    "created_at": "2026-09-29T23:02:50.837677Z",
+    "is_duplicate": true
+  },
+  "5b642a18e9e41b7024dbd025fd1a01e62e04495c9c2c6a9612235b399f499394": {
+    "project_id": "5000000222964",
+    "project_name": "Enterprise Apex 23647 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222964",
+    "created_at": "2026-09-29T23:14:23.039367Z",
+    "is_duplicate": true
+  },
+  "1b106d26a9dc7dac05c3ea1d33192ff3459b6680ae518ddc5a984e89740d7943": {
+    "project_id": "5000000222969",
+    "project_name": "Apex Dynamics 24652 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222969",
+    "created_at": "2026-09-29T23:31:08.376329Z",
+    "is_duplicate": true
+  },
+  "2ac5b4c5416bc62b553dd3c28334be13a5cbca2809bdf5ddcece7a8a26061fd0": {
+    "project_id": "5000000222970",
+    "project_name": "Beacon Logistics 24669 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222970",
+    "created_at": "2026-09-29T23:31:36.672671Z",
+    "is_duplicate": true
+  },
+  "8cfbec923705d3adadb7ed779b84200d708197f3e2fe557f6bd8299127b57e84": {
+    "project_id": "5000000222971",
+    "project_name": "Horizon Health 24697 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222971",
+    "created_at": "2026-09-29T23:32:13.708337Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790724734": {
+    "project_id": "5000000222972",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222972",
+    "created_at": "2026-09-29T23:32:32.312095Z",
+    "is_duplicate": true
+  },
+  "37cc1c73ce1a885b5ab4cfdaf61b6a9a9a69cd15d41ce5a1c91fd6662d98a5ce": {
+    "project_id": "5000000222973",
+    "project_name": "Acme Global Labs 1790724753 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222973",
+    "created_at": "2026-09-29T23:33:05.645582Z",
+    "is_duplicate": true
+  },
+  "51252128e32fb185122aa332a22f84385832a0ad653287b0ddad2a501739cc5b": {
+    "project_id": "5000000222974",
+    "project_name": "Dunder Mifflin 1790724786 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222974",
+    "created_at": "2026-09-29T23:33:31.624448Z",
+    "is_duplicate": true
+  },
+  "9d814d0da39f8be553cbd9dd500d7f01a99ac12568e089067b33789c29ba0602": {
+    "project_id": "5000000222975",
+    "project_name": "Enterprise Apex 24816 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222975",
+    "created_at": "2026-09-29T23:33:53.558794Z",
+    "is_duplicate": true
+  },
+  "50e925a75bfeabd4047f0b7324e6ed415f8f1d50d53d1577f99077deb8c1712b": {
+    "project_id": "5000000222976",
+    "project_name": "Growth Velocity 24834 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000222976",
+    "created_at": "2026-09-29T23:34:23.090331Z",
+    "is_duplicate": true
+  },
+  "ec4ca2c675410fdf018bbe13ab702dde808e7568a7f25ef25eede19a57022eb8": {
+    "project_id": "5000000223009",
+    "project_name": "Apex Dynamics 27562 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223009",
+    "created_at": "2026-09-30T00:19:43.231110Z",
+    "is_duplicate": true
+  },
+  "e949849279f7bdd1a6fae2cabffc53b03465f5eb816f8864c92a21bdd4e6a601": {
+    "project_id": "5000000223016",
+    "project_name": "Beacon Logistics 27687 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223016",
+    "created_at": "2026-09-30T00:21:53.728054Z",
+    "is_duplicate": true
+  },
+  "51f3ccc8ff18a763306595c41e2e6ef781c28c4c61b3afc45bca608e6abbd07d": {
+    "project_id": "5000000223033",
+    "project_name": "Enterprise Apex 27999 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223033",
+    "created_at": "2026-09-30T00:26:57.472830Z",
+    "is_duplicate": true
+  },
+  "b9bd051ccd027243afff7766026e5ee780b9800986fcdba415585d4593e1047f": {
+    "project_id": "5000000223035",
+    "project_name": "Growth Velocity 28018 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223035",
+    "created_at": "2026-09-30T00:27:26.361630Z",
+    "is_duplicate": true
+  },
+  "7da36885ae922c950ef77e9f5112042c30071c8a3680769bb1a6906de948558b": {
+    "project_id": "5000000223337",
+    "project_name": "Apex Dynamics 73610 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223337",
+    "created_at": "2026-09-30T13:07:21.918636Z",
+    "is_duplicate": true
+  },
+  "0bdca38293639d6eee076d88c661ff411913775bc24d3d1f2be23e24c93cfa50": {
+    "project_id": "5000000223338",
+    "project_name": "Beacon Logistics 73643 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223338",
+    "created_at": "2026-09-30T13:07:39.683316Z",
+    "is_duplicate": true
+  },
+  "a13fbdeb4b84b8af2032a8dafbd9764bcc4718bf4ecd51f816c2b9969022c6e6": {
+    "project_id": "5000000223339",
+    "project_name": "Horizon Health 73660 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223339",
+    "created_at": "2026-09-30T13:08:18.654779Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790773699": {
+    "project_id": "5000000223340",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223340",
+    "created_at": "2026-09-30T13:08:38.498177Z",
+    "is_duplicate": true
+  },
+  "bd2ec114ea917293e051386ce8f0fa2d8f41523ee4d8775d4f5bb282d9ef55ef": {
+    "project_id": "5000000223341",
+    "project_name": "Acme Global Labs 1790773719 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223341",
+    "created_at": "2026-09-30T13:09:14.829971Z",
+    "is_duplicate": true
+  },
+  "9128b79ebdb0e5fb9e9824da1e12d2e297fc65e5d4bcc68de3539b03140e7f5f": {
+    "project_id": "5000000223343",
+    "project_name": "Dunder Mifflin 1790773755 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223343",
+    "created_at": "2026-09-30T13:09:37.774881Z",
+    "is_duplicate": true
+  },
+  "d300bb9cfd7322ea2e77aa8d45cb807d4a2c7c47c035410850dad20f882f7da1": {
+    "project_id": "5000000223345",
+    "project_name": "Enterprise Apex 73782 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223345",
+    "created_at": "2026-09-30T13:10:16.484184Z",
+    "is_duplicate": true
+  },
+  "9e7bf336613d6bc509ec25eacc2db65d876e93d53ae9011f90f5171a54e4d5b1": {
+    "project_id": "5000000223347",
+    "project_name": "Growth Velocity 73818 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223347",
+    "created_at": "2026-09-30T13:10:46.270786Z",
+    "is_duplicate": true
+  },
+  "b12c597f138f6e5664a94c0d9cec7ee1763ca24a7db757a42d2dc9f1b4a3a069": {
+    "project_id": "5000000223365",
+    "project_name": "Horizon Health 75300 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223365",
+    "created_at": "2026-09-30T13:35:37.082770Z",
+    "is_duplicate": true
+  },
+  "38d3de6475a7460d7b14f0aae5aab9c9f735b29b2fd68b0124c2c1923213c989": {
+    "project_id": "5000000223521",
+    "project_name": "Apex Dynamics 84643 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223521",
+    "created_at": "2026-09-30T16:11:08.149269Z",
+    "is_duplicate": true
+  },
+  "6a6f249beb93431d24be097a0b7015db8684406a6ba4926834dd06ad424f5a85": {
+    "project_id": "5000000223523",
+    "project_name": "Beacon Logistics 84670 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223523",
+    "created_at": "2026-09-30T16:11:30.002478Z",
+    "is_duplicate": true
+  },
+  "de36dace2df637a66484cad1a69feb38d07f14df95430910801adafc0e554794": {
+    "project_id": "5000000223524",
+    "project_name": "Horizon Health 84691 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223524",
+    "created_at": "2026-09-30T16:12:20.655317Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790784741": {
+    "project_id": "5000000223527",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223527",
+    "created_at": "2026-09-30T16:12:55.183481Z",
+    "is_duplicate": true
+  },
+  "ef6e206c45cf293219d1fe9e9b1ee4c437feee8881448dcb57b6b84c055a978e": {
+    "project_id": "5000000223529",
+    "project_name": "Acme Global Labs 1790784776 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223529",
+    "created_at": "2026-09-30T16:13:17.985635Z",
+    "is_duplicate": true
+  },
+  "ae8f551965ab2d7ece5dcafeb48d615271aec8f3690b9a7f29bdd58cdd32d163": {
+    "project_id": "5000000223532",
+    "project_name": "Dunder Mifflin 1790784798 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223532",
+    "created_at": "2026-09-30T16:13:39.410776Z",
+    "is_duplicate": true
+  },
+  "6a9c3dd09010276ed91cd135dac93bb512135b141d0fdc21d4169f680ba3bf6e": {
+    "project_id": "5000000223533",
+    "project_name": "Enterprise Apex 84823 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223533",
+    "created_at": "2026-09-30T16:14:01.962585Z",
+    "is_duplicate": true
+  },
+  "80659d289c583e98a706588b1c3ac9c38e5ffaf40ea99cfa02326ea536ba8cd6": {
+    "project_id": "5000000223535",
+    "project_name": "Growth Velocity 84843 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223535",
+    "created_at": "2026-09-30T16:14:30.028361Z",
+    "is_duplicate": true
+  },
+  "971a023b8395b7e17becda08f7ff36880d066542b37a354d26fa0f83a2b3520f": {
+    "project_id": "5000000223875",
+    "project_name": "Apex Dynamics 97619 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223875",
+    "created_at": "2026-09-30T19:47:31.972232Z",
+    "is_duplicate": true
+  },
+  "c7051d67266128f6d77eca0707ec0a673cceafa6791efce8df9a8de47e55332f": {
+    "project_id": "5000000223876",
+    "project_name": "Beacon Logistics 97653 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223876",
+    "created_at": "2026-09-30T19:47:57.692396Z",
+    "is_duplicate": true
+  },
+  "6736dbc4bdfa0fae067a40f30ba2f2f79ab805c7caec1f5c910473e03f4faacd": {
+    "project_id": "5000000223877",
+    "project_name": "Horizon Health 97678 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223877",
+    "created_at": "2026-09-30T19:48:32.979124Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790797713": {
+    "project_id": "5000000223879",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223879",
+    "created_at": "2026-09-30T19:49:03.910893Z",
+    "is_duplicate": true
+  },
+  "387c3c50db529f81b044c43d31219bba9ed0986a53fc8ac6722dd6ec5c0e1586": {
+    "project_id": "5000000223883",
+    "project_name": "Acme Global Labs 1790797744 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223883",
+    "created_at": "2026-09-30T19:49:34.971031Z",
+    "is_duplicate": true
+  },
+  "f6374379088b8664f98df0760e5afd8bc861b133dd16e6ba1f3d6aa7539df8f5": {
+    "project_id": "5000000223884",
+    "project_name": "Dunder Mifflin 1790797775 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223884",
+    "created_at": "2026-09-30T19:49:55.811455Z",
+    "is_duplicate": true
+  },
+  "811c3b99b484eda8e26c980f8bf8b69a79064ff3878c50c5bd005891d3e59142": {
+    "project_id": "5000000223886",
+    "project_name": "Enterprise Apex 97800 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223886",
+    "created_at": "2026-09-30T19:50:32.027225Z",
+    "is_duplicate": true
+  },
+  "029d2de70fe8b73a103016ccb01973e24a5faad998c5b63770f7760c7a3518b5": {
+    "project_id": "5000000223888",
+    "project_name": "Growth Velocity 97833 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000223888",
+    "created_at": "2026-09-30T19:50:56.373070Z",
+    "is_duplicate": true
+  },
+  "07778a97efc993c9566d41df3bde2bc53d27aacf79e24032887a86dca2886f1e": {
+    "project_id": "5000000224247",
+    "project_name": "Apex Dynamics 13236 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224247",
+    "created_at": "2026-10-01T00:07:40.084141Z",
+    "is_duplicate": true
+  },
+  "e59c75a95b5bf673f9501a6335fee7027a35b2f44c14ea851139e5147828a2ff": {
+    "project_id": "5000000224249",
+    "project_name": "Beacon Logistics 13261 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224249",
+    "created_at": "2026-10-01T00:08:07.375152Z",
+    "is_duplicate": true
+  },
+  "b5e8dfd8055936dafa08b70fb764371fd955d8c60d525c9e41f9fc032fdbdcfb": {
+    "project_id": "5000000224251",
+    "project_name": "Horizon Health 13288 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224251",
+    "created_at": "2026-10-01T00:08:31.065634Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790813311": {
+    "project_id": "5000000224253",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224253",
+    "created_at": "2026-10-01T00:09:02.762586Z",
+    "is_duplicate": true
+  },
+  "751fe7bf0ffb962a8832d97c023c34ebbc5bee8da2c5dbc59263d7e28261680d": {
+    "project_id": "5000000224254",
+    "project_name": "Acme Global Labs 1790813343 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224254",
+    "created_at": "2026-10-01T00:09:33.770687Z",
+    "is_duplicate": true
+  },
+  "fdc08a890203f740e8fbc24a273eee3865430f55b3c53a1fe52564db2def5a98": {
+    "project_id": "5000000224255",
+    "project_name": "Dunder Mifflin 1790813374 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224255",
+    "created_at": "2026-10-01T00:09:52.452197Z",
+    "is_duplicate": true
+  },
+  "a49c1c81ab72b1aea267ef28a03a75154d9658160ccbc7e43f569c78361722bd": {
+    "project_id": "5000000224256",
+    "project_name": "Enterprise Apex 13396 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224256",
+    "created_at": "2026-10-01T00:10:24.849861Z",
+    "is_duplicate": true
+  },
+  "f2aa03dffe5ccbe739a7b1d51d1a801563674bf42346200930c8ecb34ddd45ed": {
+    "project_id": "5000000224257",
+    "project_name": "Growth Velocity 13426 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224257",
+    "created_at": "2026-10-01T00:10:55.340112Z",
+    "is_duplicate": true
+  },
+  "f321bb3afbeda97fc85a785541239c7bba5eb35fa56d9fc9f6ff5e9d68ba7caa": {
+    "project_id": "5000000224272",
+    "project_name": "Apex Dynamics 14200 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224272",
+    "created_at": "2026-10-01T00:23:51.973443Z",
+    "is_duplicate": true
+  },
+  "622d76ada10283e1a38f5f6a6d8942529f971ac28b9ad43c76bec8183202a2ba": {
+    "project_id": "5000000224273",
+    "project_name": "Beacon Logistics 14233 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224273",
+    "created_at": "2026-10-01T00:24:14.898861Z",
+    "is_duplicate": true
+  },
+  "2be6299a066dcefabea5bf5e93fe68fc10d879b2a4625114646a30fa56ffd76a": {
+    "project_id": "5000000224294",
+    "project_name": "Apex Dynamics 15940 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224294",
+    "created_at": "2026-10-01T00:52:47.742702Z",
+    "is_duplicate": true
+  },
+  "dbb7569b9b6d0c12ee856d3a399179ce23b42f8136b09ee5350a0ac50296e390": {
+    "project_id": "5000000224295",
+    "project_name": "Beacon Logistics 15969 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224295",
+    "created_at": "2026-10-01T00:53:20.177998Z",
+    "is_duplicate": true
+  },
+  "6c00ca0ba918d688211718b93000866e2ee0d695ff15a439c2f3930fc3cf297d": {
+    "project_id": "5000000224304",
+    "project_name": "Horizon Health 16392 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224304",
+    "created_at": "2026-10-01T01:00:30.074810Z",
+    "is_duplicate": true
+  },
+  "13f09027767e7edb7d277c2768e23703142e2c866932b37009229b139e7190fc": {
+    "project_id": "5000000224308",
+    "project_name": "Enterprise Apex 16520 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224308",
+    "created_at": "2026-10-01T01:02:20.403631Z",
+    "is_duplicate": true
+  },
+  "189abd607098d1690b9edc8c247249faa32327bf8ccab4d464c3acf5d837f232": {
+    "project_id": "5000000224309",
+    "project_name": "Growth Velocity 16541 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224309",
+    "created_at": "2026-10-01T01:02:48.322417Z",
+    "is_duplicate": true
+  },
+  "186a0025b77ec612dcff150407a377e68a92b3b9052d2b1f94c469003f64a62e": {
+    "project_id": "5000000224342",
+    "project_name": "Script Format Systems - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224342",
+    "created_at": "2026-10-01T01:34:16.911010Z",
+    "is_duplicate": true
+  },
+  "b11919c27b438998966b256124ecd76937c8c93c3b5e4a69cc856627a58d4c01": {
+    "project_id": "5000000224346",
+    "project_name": "Delight Systems - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224346",
+    "created_at": "2026-10-01T01:38:57.358889Z",
+    "is_duplicate": true
+  },
+  "fd2a0d12ec36d3374a17da08c8ac7096b3d2212942c8efc8f941d78295a892e6": {
+    "project_id": "5000000224350",
+    "project_name": "Delight2 Systems - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000224350",
+    "created_at": "2026-10-01T01:45:49.297623Z",
+    "is_duplicate": true
+  },
+  "12e8e5d9a5139315b951fdcc93fa5612a7318491538331d9083b5e09324896ad": {
+    "project_id": "5000000225032",
+    "project_name": "Apex Dynamics 71700 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225032",
+    "created_at": "2026-10-01T16:22:08.960480Z",
+    "is_duplicate": true
+  },
+  "13cffcfbdd2fb3ff3654070c304346a4b4e275fce71d88b421cf6108074c644f": {
+    "project_id": "5000000225034",
+    "project_name": "Beacon Logistics 71730 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225034",
+    "created_at": "2026-10-01T16:22:34.534893Z",
+    "is_duplicate": true
+  },
+  "9bbac2f83edb8d5e164f5a06f59bfb2793ab5e8786adb1bb8fcd34ed9f3af8be": {
+    "project_id": "5000000225035",
+    "project_name": "Horizon Health 71755 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225035",
+    "created_at": "2026-10-01T16:23:05.803378Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790871786": {
+    "project_id": "5000000225036",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225036",
+    "created_at": "2026-10-01T16:23:32.402565Z",
+    "is_duplicate": true
+  },
+  "6c1397a5d9140e29db86dbc24796eee993c5b81e624e2fe0430842160de2015a": {
+    "project_id": "5000000225037",
+    "project_name": "Acme Global Labs 1790871813 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225037",
+    "created_at": "2026-10-01T16:23:57.799133Z",
+    "is_duplicate": true
+  },
+  "71e56ab977f48b6ff62e3093a1ced01d7f2734473a2ce1d45b174add646e4dcc": {
+    "project_id": "5000000225038",
+    "project_name": "Dunder Mifflin 1790871838 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225038",
+    "created_at": "2026-10-01T16:24:27.071961Z",
+    "is_duplicate": true
+  },
+  "8b891be05734bd15ada57936ad9635321b34f3bbc441af5eab6227a343926880": {
+    "project_id": "5000000225039",
+    "project_name": "Enterprise Apex 71871 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225039",
+    "created_at": "2026-10-01T16:25:04.495699Z",
+    "is_duplicate": true
+  },
+  "e9181b9230040835fb181fdfa23e0f20291d9c25bf3c80b49f59ba07ea77c9fc": {
+    "project_id": "5000000225040",
+    "project_name": "Growth Velocity 71906 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225040",
+    "created_at": "2026-10-01T16:25:24.388984Z",
+    "is_duplicate": true
+  },
+  "bed82bb384a298524a75ca47ea276fa3aa454ce2cf35b9d5dd67362fafc8e3ca": {
+    "project_id": "5000000225061",
+    "project_name": "Apex Dynamics 73580 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225061",
+    "created_at": "2026-10-01T16:53:22.572118Z",
+    "is_duplicate": true
+  },
+  "41e91f398edc8a4e0d6fbc89b94c4466688dc229611d6bff96552c60666c6807": {
+    "project_id": "5000000225062",
+    "project_name": "Beacon Logistics 73603 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225062",
+    "created_at": "2026-10-01T16:53:52.299028Z",
+    "is_duplicate": true
+  },
+  "c143945a18865d0c7edef10aa937009437739d91cb86cea08e00a6abcfd5528d": {
+    "project_id": "5000000225064",
+    "project_name": "Horizon Health 73633 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225064",
+    "created_at": "2026-10-01T16:54:19.156577Z",
+    "is_duplicate": true
+  },
+  "e2e_idempotency_test_1790873659": {
+    "project_id": "5000000225065",
+    "project_name": "Acme Enterprise Labs - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225065",
+    "created_at": "2026-10-01T16:54:47.781845Z",
+    "is_duplicate": true
+  },
+  "5bed139d581e15a9d7ab062b34d91c08832f59b08be24255efa10c3081d453dc": {
+    "project_id": "5000000225067",
+    "project_name": "Acme Global Labs 1790873688 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225067",
+    "created_at": "2026-10-01T16:55:21.783241Z",
+    "is_duplicate": true
+  },
+  "f15c65295092a0ae089dfaf33f5f4d9cdb2a0052da18803acacdf5128024b9b1": {
+    "project_id": "5000000225068",
+    "project_name": "Dunder Mifflin 1790873722 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225068",
+    "created_at": "2026-10-01T16:55:45.629936Z",
+    "is_duplicate": true
+  },
+  "0f1d0ccd47daf26ecb12dc4df2ad9764129dd6b83cd30203ce203c58c327060b": {
+    "project_id": "5000000225069",
+    "project_name": "Enterprise Apex 73749 - Onboarding (ENTERPRISE)",
+    "tier": "ENTERPRISE",
+    "template_id": "5000000095997",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225069",
+    "created_at": "2026-10-01T16:56:21.897052Z",
+    "is_duplicate": true
+  },
+  "8a75d32ce27aeb1f632a9ed3814f945dd2ad8dabb5855a5f47e7ecf549753249": {
+    "project_id": "5000000225070",
+    "project_name": "Growth Velocity 73783 - Onboarding (GROWTH)",
+    "tier": "GROWTH",
+    "template_id": "5000000096288",
+    "portal_url": "https://app.rocketlane.com/projects/5000000225070",
+    "created_at": "2026-10-01T16:56:41.672859Z",
+    "is_duplicate": true
+  }
+}
